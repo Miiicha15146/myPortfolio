@@ -1,0 +1,107 @@
+/* SP */
+@media screen and (max-width:768px) {
+  /* ヘッダー */
+  #header {
+    font-size: .8em;
+    height: 50px;
+  }
+  #header .menu .link {
+    margin: 0 5px;
+    line-height: 2.5;
+  }
+  /* メイン */
+  #main {
+    padding-top: 150px;
+  }
+  #main #title {
+    font-size: 2.5em;
+  }
+  #navigation .menu li {
+    display: block;
+  }
+  /* about */
+  #about {
+    padding: 80px 0;
+  }
+  #about .content-wrap .content {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #about .content-wrap .content h2 {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  #about .content-wrap .content p {
+    font-size: .8em;
+  }
+  /* プロフィール */
+  #profile {
+    padding: 80px 0;
+  }
+
+  #profile .content-wrap .content {
+    width: 100%;
+    padding: 20px 0 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  }
+  #profile .content-wrap .content .data {
+    display: block;
+  }
+  #profile .content-wrap .content .data h2 {
+    font-size: 1.2em;
+  }
+  #profile .content-wrap .content .data .myPhoto {
+    width: 100%;
+    height: 120px;
+  }
+  #profile .content-wrap .content .data .myPhoto img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  #profile .content-wrap .content .data ul {
+    width: 90%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  /* スキル */
+  #skill  {
+    height: 1560px;
+    padding-top: 60px;
+  }
+  #skill .content-wrap {
+    width: 90%;
+    display: block;
+  }
+  #skill .content-wrap .content {
+    width: 90%;
+    height: 230px;
+    margin: 15px;
+    padding: 0 5px;
+    text-align: center;
+    border: 2px solid #cbcec4;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  }
+  /* 仕事 */
+  #work {
+    margin-top: 100px;
+  }
+  /* コンタクト */
+  #contact {
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  #contact .content-wrap .content {
+    padding-top: 0;
+  }
+  #contact .content-wrap .content ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #contact .content-wrap .content ul li {
+    display: inline-block;
+  }
+  #contact .content-wrap .content ul li .c-icon{
+    width: 25%;
+  }
+}
